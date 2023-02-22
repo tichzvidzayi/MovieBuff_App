@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
-import MovCard from './Components/MovCard'
+import MovCard from './Components/MovCard';
+import './Components/MovCard.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
