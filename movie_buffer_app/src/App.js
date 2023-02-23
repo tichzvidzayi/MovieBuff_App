@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
-import MovCard from './Components/MovCard';
-import './Components/MovCard.css';
+import {MovCard} from './Components/MovieCard/MovCard.jsx'
+import './Components/MovieCard/MovCard.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -26,6 +26,8 @@ function App() {
  
   return (
     <div className="App">
+      <h1>Movies</h1>
+      <MovCard></MovCard>
      </div>
   );
 }
